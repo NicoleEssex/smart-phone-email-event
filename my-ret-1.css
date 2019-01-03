@@ -1,0 +1,71 @@
+body{
+   margin: 0px;
+   padding: 0px;
+   font-family: 'Charm', cursive;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+   
+}
+
+thead {
+    font-size: 40px;
+}
+
+table {
+    margin: auto;
+    padding: 0px;
+    border-collapse: collapse;  
+}
+
+td {
+    max-width: 600px;
+    padding: 5px;
+}
+
+th {
+    padding: 10px;
+}
+
+tr#sub-title {
+    background-color:#333;
+    color: #fff;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 20px;
+ 
+}
+
+button {
+    border-radius: 10px;
+    padding: 5px;
+}
+
+button#buy-tickets {
+    font-family: 'Charm', cursive;
+    font-size: 17px;
+    background-color:rgb(235, 52, 52)
+}
+ 
+td#button {
+    text-align: center;
+}
+
+button.social-link {
+    font-family: 'Thasadith', sans-serif;
+    font-size: 15px;
+    border-radius: 100px;
+    background-color: rgb(248, 250, 149);
+    opacity: .7;
+}
+
+tr#social-links {
+    text-align: center;
+}
+
+tfoot {
+    font-family: 'Thasadith', sans-serif;
+    font-size: 30px;
+}
